@@ -554,7 +554,7 @@ public enum NFAutorizador31 {
 
         @Override
         public String getNfeStatusServico(final NFAmbiente ambiente) {
-            return NFAmbiente.HOMOLOGACAO.equals(ambiente) ? "https://hnfe.fazenda.mg.gov.br/nfe2/services/NfeStatusServico2" : "https://nfe.fazenda.mg.gov.br/nfe2/services/NfeStatus2";
+            return NFAmbiente.HOMOLOGACAO.equals(ambiente) ? "https://hnfe.fazenda.mg.gov.br/nfe2/services/NfeStatus2" : "https://nfe.fazenda.mg.gov.br/nfe2/services/NfeStatus2";
         }
 
         @Override
